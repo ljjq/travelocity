@@ -1,0 +1,10 @@
+<suite name="My test suite">
+    <parameter name="browser" value="chrome"/>
+    <test name="Travelocity test">
+        <classes>
+            <class name="com.automation.travel.tests.TravelTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
