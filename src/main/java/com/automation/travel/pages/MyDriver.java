@@ -32,7 +32,7 @@ public class MyDriver {
                     break;
 
                 case "chrome":
-                    System.setProperty("webdriver.chrome.driver", "/Users/user/Documents/Chromedriver.exe");
+                    System.setProperty("webdriver.chrome.driver", "/Users/leidy.jaramillo/Documents/Chromedriver.exe");
                     driver = new ChromeDriver();
                     break;
             }

@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2357798f-0781-4963-a543-8fa3cbd4c16b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/MyDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/ResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/TravelHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/travel/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/travel/tests/TravelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/SelectionFlightPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/MyDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/MyDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/ResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/ResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/travel/tests/TravelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/travel/tests/TravelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/travel/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/travel/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/travel/pages/MyDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/travel/pages/MyDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/automation/travel/pages/ResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/automation/travel/pages/ResultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automation/travel/tests/TravelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automation/travel/tests/TravelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travelocity.iml" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,82 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/automation/travel/tests/TravelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/travel/pages/TravelHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/travel/pages/ResultPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/automation/travel/tests/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/travel/pages/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/travel/pages/SelectionFlightPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +111,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/MyDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/TravelHomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automation/travel/tests/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/SelectionFlightPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automation/travel/tests/TravelTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automation/travel/pages/ResultPage.java" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -41,9 +131,82 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
+  </component>
   <component name="ProjectId" id="1R2fcKR9l4cpmGHZEukFDGGcgRU" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="travelocity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelocity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelocity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelocity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelocity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelocity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelocity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelocity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelocity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelocity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelocity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelocity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelocity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelocity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travelocity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="travelocity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -95,14 +258,98 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="C__Users_user_IdeaProjects_travelocity_src_test_testng_xml - 2019.10.07 at 12h 13m 40s.xml">
+      <configuration name="C:/Users/user/IdeaProjects/travelocity/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_user_IdeaProjects_travelocity_src_test_testng_xml - 2019.10.07 at 14h 44m 58s.xml">
+      <configuration name="C:/Users/user/IdeaProjects/travelocity/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_user_IdeaProjects_travelocity_src_test_testng_xml - 2019.10.07 at 14h 46m 15s.xml">
+      <configuration name="C:/Users/user/IdeaProjects/travelocity/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_user_IdeaProjects_travelocity_src_test_testng_xml - 2019.10.07 at 14h 53m 01s.xml">
+      <configuration name="C:/Users/user/IdeaProjects/travelocity/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_user_IdeaProjects_travelocity_src_test_testng_xml - 2019.10.07 at 14h 57m 52s.xml">
+      <configuration name="C:/Users/user/IdeaProjects/travelocity/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_user_IdeaProjects_travelocity_src_test_testng_xml - 2019.10.07 at 15h 02m 39s.xml">
+      <configuration name="C:/Users/user/IdeaProjects/travelocity/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_user_IdeaProjects_travelocity_src_test_testng_xml - 2019.10.07 at 15h 04m 28s.xml">
+      <configuration name="C:/Users/user/IdeaProjects/travelocity/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_user_IdeaProjects_travelocity_src_test_testng_xml - 2019.10.07 at 15h 07m 20s.xml">
+      <configuration name="C:/Users/user/IdeaProjects/travelocity/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_user_IdeaProjects_travelocity_src_test_testng_xml - 2019.10.07 at 15h 08m 39s.xml">
+      <configuration name="C:/Users/user/IdeaProjects/travelocity/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_user_IdeaProjects_travelocity_src_test_testng_xml - 2019.10.07 at 15h 12m 56s.xml">
+      <configuration name="C:/Users/user/IdeaProjects/travelocity/src/test/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48490232" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -110,5 +357,71 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automation/travel/tests/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automation/travel/tests/TravelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/travel/pages/MyDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="89" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/travel/pages/SelectionFlightPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/travel/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/travel/pages/TravelHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automation/travel/pages/ResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -18,8 +18,18 @@ public class TravelTest extends BaseTest {
                                                                    "Departure (Latest)\n" +
                                                                    "Arrival (Earliest)\n" +
                                                                    "Arrival (Latest)");
-            Assert.assertEquals(resultPage.countFlightDuration(),resultPage.countButtonDuration());
-            Assert.assertEquals(resultPage.countFlightDuration(),resultPage.countflightDetailBaggageFee());
+
+            //Assert.assertEquals(resultPage.countFlightDuration(),resultPage.countButtonDuration());
+            //Assert.assertEquals(resultPage.countFlightDuration(),resultPage.countflightDetailBaggageFee());
+
+            resultPage.selectionFlightPage();
+            Assert.assertEquals(resultPage.selectionFlightPage(),"Price (Lowest)");
+            resultPage.chooseFlightOriginDestination();
+
+           /* resultPage.chooseFlightOrigin();
+            SelectionFlightPage selectionFlightPage =  resultPage.chooseFlightOrigin();
+            selectionFlightPage.selectionFlightDestination();*/
+
         }
 
 
